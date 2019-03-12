@@ -1,0 +1,10 @@
+<?xml version="0.1" encoding="utf-8"?>
+<litepal>
+    <dbname value="litepaldemo" />
+    <version value="1" />
+    <list>
+
+        <mapping class="com.example.lem.myapplication.Pro"/>
+    </list>
+    <storage value="gpf/database" />  //storage 定义数据库文件存储的地方,可选 internal(内部) 和 external（外部）, 默认为 internal
+</litepal>
